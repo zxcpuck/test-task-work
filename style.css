@@ -74,3 +74,18 @@ body {
     margin:10px;
     color: white;
 }
+
+
+/*Scale для мобільної версії*/
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        padding: 10px;
+        font-size: 1em;
+    }
+}
