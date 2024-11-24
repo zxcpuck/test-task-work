@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+}
+.nav-item {
+    margin: 0 15px;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.advantages-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.advantage {
+    width: 30%;
+    margin: 20px 0;
+}
+
+.slider {
+    position: relative;
+}
+
+.testimonial {
+    display: none;
+}
+
+.testimonial.active {
+    display: block;
+}
+
+.btn {
+    background: yellowgreen;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: black   ;
+    color: white;
+}
+.social-media a {
+    margin:10px;
+    color: white;
+}
